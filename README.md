@@ -26,7 +26,14 @@ In a terminal, check the version of Python you have: `python -V`. If you have Py
 
 Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write. 
 
-### How To Start
+### How To Start Data Server
+
+1. Clone this repo [mws-restaurant-stage-2](https://github.com/udacity/mws-restaurant-stage-2).
+2. In a terminal CD to the Repo and type `npm install`.
+3. Now run `npm i sails -g`.
+4. Launch the server: `node server`.
+
+### How To Start Client
 
 1. Clone this repo.
 2. In a terminal CD to the Repo and type `npm install`.
@@ -41,3 +48,8 @@ You might need to install a third party library on your system to manipulate ima
 2. `gulp scripts`
 3. `gulp styles`
 4. `gulp browser-sync`
+
+### Links and Resources Used
+MWS Restaurant Stage 1 Sample APP [link](https://github.com/udacity/mws-restaurant-stage-1)
+MWS Restaurant Stage 2 Data Server [link](https://github.com/udacity/mws-restaurant-stage-2)
+Jake Archibald's IDB Library [link](https://github.com/jakearchibald/idb/blob/master/lib/idb.js)
