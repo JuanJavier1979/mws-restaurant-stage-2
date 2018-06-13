@@ -14,4 +14,12 @@
   padding: 25px;
   text-align: center;
   text-transform: uppercase;
+
+  a {
+  	color: $footer-link;
+  	&:hover,
+  	&:focus {
+  		color: $white;
+  	}
+  }
 }
