@@ -68,7 +68,9 @@ gulp.task('scripts', function(){
   gulp.src(scriptRoot)
       .pipe(sourcemaps.init())
       //.pipe(concat('main.js'))
-      .pipe(babel())
+      .pipe(babel({
+          presets: ['env']
+      }))
       .pipe(uglify())
       .pipe(sourcemaps.write('./'))
       .pipe(gulp.dest('build/js'))
