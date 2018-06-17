@@ -65,6 +65,7 @@ const fillCuisinesHTML = (cuisines = self.cuisines) => {
 document.addEventListener('DOMContentLoaded', (event) => {
   fetchNeighborhoods();
   fetchCuisines();
+  updateRestaurants();
 });
 
 /**
@@ -80,7 +81,7 @@ window.initMap = () => {
     center: loc,
     scrollwheel: false
   });
-  updateRestaurants();
+  //updateRestaurants();
 }
 
 /**
