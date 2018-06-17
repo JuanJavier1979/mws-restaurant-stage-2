@@ -12,7 +12,7 @@ const urlsToCache = [
   'build/js/idb.js',
   'build/css/main.css',
   'assets/icons/favicon.ico',
-  '//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+  'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
   'build/img/1-original.jpg',
   'build/img/2-original.jpg',
   'build/img/3-original.jpg',
